@@ -67,6 +67,17 @@ color: white;
 font-size: 16px;
 font-family: JetBrains Mono;
 border: 2px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+.frame{
+	display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+margin-top: 104px;
 }
 .h1main{
 width: 649px;
@@ -108,9 +119,16 @@ width: 1312px;
 height: 512px;
 display: flex;
 flex-direction: row;
-
-	margin-top: 104px;
 	margin-left: 64px;
+}
+.post3{
+	width: 1312px;
+height: 468px;
+display: flex;
+flex-direction: row;
+
+		margin-top: 48px;
+		margin-left: 64px;
 }
 .post6{
 width: 1312px;
@@ -118,16 +136,26 @@ height: 512px;
 display: flex;
 flex-direction: row;
 
-	margin-top: 242px;
+	
+    margin-top: 260px;
+
+	margin-left: 64px;
+}
+.post5{
+	width: 1312px;
+height: 512px;
+display: flex;
+flex-direction: row;
+	margin-top: 48px;
 	margin-left: 64px;
 }
 .post4{
-	width: 861px;
-height: 448px;
+width: 1312px;
+height: 468px;
 display: flex;
 flex-direction: row;
 
-	margin-top: 172px;
+    margin-top: 240px;
 		margin-left: 64px;
    
 }
@@ -210,6 +238,20 @@ gap: 64px;
 margin-bottom: 56px;
 margin-top: 54px;
 }
+.social1{
+	display: flex;
+align-items: flex-start;
+gap: 64px;
+
+    padding-bottom: 40px;
+
+}
+.enua{
+		font-size: 16px;
+font-family: JetBrains Mono;
+text-decoration: none;
+color: white;
+}
 .txt1{
 	display: flex;
 width: 636px;
@@ -243,7 +285,23 @@ justify-content: flex-start;
 align-items: center;
 flex-direction: row;
 gap: 21px;
-/*margin-top: 72px;*/
+    padding-top: 30px;
+}
+.user1{
+	display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: row;
+gap: 21px;
+padding-top: 56px;
+}
+.user2{
+	display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: row;
+gap: 21px;
+padding-top: 40px;
 }
 .ava{
 	width: 60px;
@@ -360,4 +418,307 @@ hr{
 	background: #2D2E32;
 	height: 2px;
 	width: 100%;
+}
+.topics{
+	display: flex;
+align-items: center;
+justify-content: center;
+gap: 153px;
+}
+.team{
+	width: 563px;
+height: 145px;
+background: #ABABAD;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+}
+.develop{
+	width: 563px;
+height: 145px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+}
+.h1team{
+	color: var(--components-dark-grey, #222326);
+font-size: 24px;
+font-family: JetBrains Mono;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.h1deve{
+color: var(--text-white, #FFF);
+font-size: 24px;
+font-family: JetBrains Mono;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text{
+	width: 360px;
+height: 108px;
+flex-shrink: 0;
+color: var(--components-dark-grey, #222326);
+font-size: 24px;
+font-family: JetBrains Mono;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.teamwork{
+/*	display: flex;*/
+flex-direction: column;
+align-items: flex-start;
+padding-left: 90px;
+gap: 16px;
+}
+.pteam{
+	display: flex;
+width: 360px;
+flex-direction: column;
+color: var(--icons-text-dark-grey, #2D2E32);
+font-size: 16px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.pdeve{
+	display: flex;
+width: 360px;
+flex-direction: column;
+color: var(--text-light-grey, #ABABAD);
+font-size: 16px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(/Users/timofijbobruk/Documents/IT/future/ttf/JetBrainsMono-Regular.ttf);
+}
+@font-face {
+	font-family: Source Code Pro;
+	src: url(/Users/timofijbobruk/Documents/IT/future/ttf/SourceCodePro-Regular.ttf);
+}
+body{
+   max-height: 100vh; 
+   margin: 0px;
+   width: 1440px;
+background: var(--background, #16171B);
+}
+footer{
+	width: 100%;
+	display: flex;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+margin-top: 68px;
+}
+.logot{
+	color: var(--text-white, #FFF);
+font-size: 32px;
+font-family: JetBrains Mono;
+}
+.txtfot{
+	display: flex;
+	flex-direction: row;
+}
+.txttfot{
+	display: flex;
+	flex-direction: row;
+
+	color: var(--text-white, #FFF);
+font-size: 16px;
+font-family: JetBrains Mono;
+}
+.poloska{
+	width: 100%;
+	    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+}
+.pad{
+		padding: 22px;
+}
+.x{
+	width: 100%;
+	height: 235px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+hr{
+		background: #2D2E32;
+	height: 2px;
+	width: 100%;
+	border: 0px;
+	margin-top: 50px;
+}
+.if{
+		background: #2D2E32;
+	height: 2px;
+	width: 100%;
+	border: 0px;
+	margin-top: 50px;
+}
+.hdre{
+	font-size: 16px;
+font-family: JetBrains Mono;
+text-decoration: none;
+color: white;
+padding: 63px;
+}
+.ife{
+		background: #2D2E32;
+	height: 2px;
+	width: 100%;
+	border: 0px;
+	margin-bottom: 100px;
+}
+.pols{
+	background: #2D2E32;
+	height: 2px;
+	width: 100%;
+}
+.reger{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+.h1reger{
+color: var(--text-white, #FFF);
+text-align: center;
+font-size: 36px;
+font-family: JetBrains Mono;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.regerlabel{
+width: 636px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--components-dark-grey, #222326);
+color: var(--text-light-grey, #ABABAD);
+text-align: left;
+font-size: 20px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: 0px;
+padding-left: 14px;
+margin-top: 26px;
+}
+button{
+	width: 410px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid var(--text-light-grey, #ABABAD);
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: none;
+margin-top: 64px;
+cursor: pointer;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.forgot{
+	color: var(--text-light-grey, #ABABAD);
+text-align: center;
+font-size: 16px;
+font-family: JetBrains Mono;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0px;
+text-decoration: none;
+}
+.forgot a{
+	margin-bottom: 15px;
+}
+.wesend{
+width: 636px;
+height: 102px;
+flex-shrink: 0;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: var(--components-dark-grey, #222326);
+}
+.wesendp{
+color: var(--text-light-grey, #ABABAD);
+font-size: 20px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+width: 566px;
+height: 54px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.we{
+	text-decoration: underline;
+}
+.norm{
+	text-decoration: none;
+	color: var(--text-light-grey, #ABABAD);
+		width: 410px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid var(--text-light-grey, #ABABAD);
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: none;
+margin-top: 64px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.norm1{
+	text-decoration: underline;
+	color: var(--text-light-grey, #ABABAD);
+		width: 410px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid var(--text-light-grey, #ABABAD);
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-family: Source Code Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: none;
+margin-top: 64px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
 }
